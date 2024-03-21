@@ -1,0 +1,83 @@
+:root {
+  --padding-mobile: 1rem 2rem;
+  --margin-mobile: 1rem 2rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p,
+li,
+span {
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  color: grey;
+}
+
+.bold {
+  font-weight: 700;
+  color: #5c5356;
+}
+
+/* Omelette img style mobile  */
+
+.omelette-image {
+  /* margin-bottom: 1.5rem; */
+}
+
+.omelette-image img {
+  width: 100%;
+}
+
+.recipe-introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: var(--padding-mobile);
+}
+
+.recipe-introduction h1 {
+  font-family: "Young Serif", serif;
+  font-size: 2rem;
+  color: hsl(24, 5%, 18%);
+}
+
+
+
+/* Preparation Section style mobile */
+
+.preparation {
+  background-color: #fff7fc;
+  border-radius: 0.5rem;
+  padding: var(--padding-mobile);
+  margin: var(--margin-mobile);
+}
+
+.preparation-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 0.7rem;
+  align-self: flex-start;
+}
+
+.preparation-ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.preparation-ul li {
+  margin-bottom: 0.7rem;
+}
+
+.preparation-ul li::marker {
+  color: hsl(332, 51%, 32%);
+  font-size: 0.7rem;
+}
+
+/* Ingredients section style mobile  */
+
